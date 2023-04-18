@@ -34,6 +34,14 @@
       </span>
    
     </section>
+       (() => {
+  const modelViewer = document.querySelector('#xfade-demo');
+
+  self.setInterval(() => {
+    modelViewer.animationName = modelViewer.animationName === 'Running' ?
+      'Idle' : 'Running';
+  }, 1500.0);
+})();
     </div>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
