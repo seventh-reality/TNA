@@ -34,27 +34,7 @@
       </span>
    
     </section>
-      const modelViewer = document.querySelector("model-viewer");
-	  modelViewer.animationName = 'All Animations';
-	  var extremelySmallIntervalTime = 0.05;
-	  var j=0;
-	  
-	  setInterval(function(){ 
-       
-		  //console.log(modelViewer.currentTime);	
-		  if(modelViewer.currentTime > 0 && modelViewer.currentTime < extremelySmallIntervalTime)
-		  {
-			   
-			  if ( j > 0 )
- 			  {
- 				  modelViewer.pause();
- 				  modelViewer.currentTime = 0;
- 			  }
-			   
-			   j++;
-			   console.log(j);
-		  }
-  	  }, extremelySmallIntervalTime*1000);
+      
     </div>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
