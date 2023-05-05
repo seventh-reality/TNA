@@ -26,6 +26,10 @@ model-viewer {
   height: 500px;
   --poster-color: #ffffff00;
 }
+.attributiontwo {
+height: 60px;
+}
+
 .attribution1 {
   color: #000000;
   display: flex;
