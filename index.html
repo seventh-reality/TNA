@@ -8,6 +8,53 @@
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+	  <style>
+        h5 {
+            text-align: center;
+            margin-top: -5px;
+            font-size: 9px;
+            color: #636363; /* Improves visibility */
+        }
+
+        .attributiontwo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .attributiontwo span {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .attributiontwo a {
+            margin: 15px;
+            text-decoration: none; /* Removes underline */
+           -webkit-tap-highlight-color: transparent; /* Removes blue highlight */
+        }
+
+        .icon {
+            width: 43px;
+            height: 43px;            
+        }
+        .icon:hover {
+            transform: scale(1.1);         
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .attributiontwo {
+                padding: 15px;
+            }
+            .icon {
+                width: 43px;
+                height: 43px;
+            }
+        }
+    </style>
   </head>
   <body>
      <div id="card">
